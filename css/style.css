@@ -1,3 +1,8 @@
+/*COMMON*/
+
+/*COMMON*/
+
+
 /*HEADER*/
 
 .top_nav {
@@ -18,4 +23,18 @@
     color: white;
     text-align: right;
 }
+
+.bot_nav {
+    background-color: #1abc9c;
+}
+
+.bot_nav .teaser_header {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.teaser_header img {
+    height: 300px;
+}
+
 /*HEADER*/
