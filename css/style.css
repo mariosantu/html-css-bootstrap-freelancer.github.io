@@ -38,3 +38,27 @@
 }
 
 /*HEADER*/
+
+/*MAIN*/
+
+#portfolio .portfolio_teaser {
+    text-align: center;
+}
+
+.portfolio_img img {
+    height: 270px;
+    width: auto;
+    border-radius: 10px;
+}
+
+.portfolio_img {
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+
+/*MAIN*/
+
+
+
