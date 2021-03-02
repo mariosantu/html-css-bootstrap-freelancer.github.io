@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <title>html-css-bootstrap-freelancer</title>
@@ -17,26 +18,37 @@
                 <div class="row">
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                         <div class="logo">
-                            logo
+                            <div class="text-uppercase">start bootstrap</div>
                         </div>
                     </div>
    
                     <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
                             <div class="row">
                                 <div class="hidden-xs col-sm-12 col-md-12 col-lg-12">
-                                    <div class="menu">
-                                        menu menu menu
-                                    </div>
+                                    <ul class="menu text-right">
+                                       <li>
+                                           <a class="text-uppercase" href="#">portfolio</a>
+                                       </li>
+
+                                       <li>
+                                           <a class="text-uppercase" href="#">about</a>
+                                       </li>
+
+                                       <li>
+                                           <a class="text-uppercase" href="#">contact</a>
+                                       </li>   
+                                    </ul>
                                 </div>
                                 <div class="col-xs-12 hidden-sm hidden-md hidden-lg">
-                                    <div class="burger_menu">
-                                        burger
+                                    <div class="burger_menu text-right">
+                                        <a href="#">
+                                            <i class="fas fa-bars"></i>
+                                        </a>
                                     </div>
                                 </div>
                             </div>
-                        </div>
                     </div>
-   
+    
                 </div>
             </div>
         </div>
@@ -48,13 +60,18 @@
            <div class="container-fluid">
                <div class="row">
                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                       <div class="teaser_img">
+                            <img class="img-responsive center-block" src="img/avatar.svg" alt="avatar">
+                       </div>
+
                        <div class="teaser_header">
-                           <img src="img/avatar.svg" alt="avatar">
-   
                            <h1>START BOOTSTRAP</h1>
+
+                           <div class="text-center star">
+                             <i class="fas fa-star"></i>
+                           </div>
    
-                           <p>GRAPHICS - ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
-        
+                           <p>GRAPHICS ARTIST - WEB DESIGNER - ILLUSTRATOR</p>
                        </div>
                    </div>
                </div>
@@ -68,64 +85,61 @@
 
       <!--portfolio section start-->
         <section id="portfolio">
-
             <!--Portfolio teaser start-->
             <div class="container">
                 <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="portfolio_teaser">
                             <h2>PORTFOLIO</h2>
-                            <p>lorem &#9733 lorem</p>
+
+                            <div class="text-center star">
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
                     </div>
-                </div>     
-            </div>
-            <!--Portfolio teaser start-->
-
+                </div>  
+            <!--Portfolio teaser end-->
             <!--portfolio img row start-->
+                <div class="row">
 
-                <div class="container">
-                        <div class="row">
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                            <img class="img-responsive img-rounded" src="img/cabin.png" alt="cabin">
+                        </div>    
+                    </div>
 
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                    <img src="img/cabin.png" alt="cabin">
-                                </div>    
-                            </div>
-    
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                    <img src="img/cake.png" alt="cake">
-                                </div>     
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                            <img  class="img-responsive img-rounded" src="img/cake.png" alt="cake">
+                        </div>     
+                    </div>
 
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                   <img src="img/circus.png" alt="circus">
-                                </div>        
-                            </div>
-                         
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                   <img src="img/game.png" alt="game">
-                                </div>        
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                           <img class="img-responsive img-rounded" src="img/circus.png" alt="circus">
+                        </div>        
+                    </div>
+                 
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                           <img class="img-responsive img-rounded" src="img/game.png" alt="game">
+                        </div>        
+                    </div>
 
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                   <img src="img/safe.png" alt="safe">
-                                </div>        
-                            </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                           <img class="img-responsive img-rounded" src="img/safe.png" alt="safe">
+                        </div>        
+                    </div>
 
-                            <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
-                                <div class="portfolio_img">
-                                   <img src="img/submarine.png" alt="submarine">
-                                </div>        
-                            </div>
-                        </div>
+                    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4">
+                        <div class="portfolio_img">
+                           <img class="img-responsive img-rounded" src="img/submarine.png" alt="submarine">
+                        </div>        
                     </div>
                 </div>
             <!--portfolio img row end--> 
+            </div>    
         </section>
       <!--portfolio section end-->
 
@@ -137,24 +151,30 @@
                   <div class="row">
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="about-teaser">
-                            <h3>ABOUT</h3>
+                            <h2>ABOUT</h2>
 
-                            <p>lorem &#9733 lorem</p>
+                            <div class="text-center star">
+                                <i class="fas fa-star"></i>
+                            </div>
                         </div>
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolorem repellat obcaecati corporis deserunt alias quae beatae quia harum accusantium, cumque velit, sit sed dignissimos voluptates at blanditiis rem provident laborum.</p>
+                                <p>Free lancer is a free bootstrap theme created by Start bootstrap.
+                                    The download includes the complete source files including HTML, CSS, and Javascript as well as optional LESS stylesheets for easy customization.
+                                </p>
                             </div>
 
                             <div class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Enim laboriosam modi commodi officia sit iusto eius amet, non doloremque accusamus ex doloribus illo porro voluptatibus vel ea nemo excepturi dolorem.</p>
+                                <p>Whether you're a student looking to showcase your work, a professional looking to attract clients, or a graphic artist looking to shareyour projects, this template is the perfect starting point!</p>
                             </div>
                         </div>
 
                         <div class="row">
                             <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                                <p>BUTTON</p>
+                                <div class="button text-center">
+                                    <a class="btn btn-default" href="#" role="button"><i class="fas fa-download"></i> Download</a>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -169,39 +189,25 @@
       <section>
         <div class="small_wrapper">
             <div class="container-fluid">
-                <div class="row">
-                  <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                      <div class="contact-teaser">
-                          <h3>CONTACT ME</h3>
+               <!--Contacts section teaser-->
+               <div class="text-center">
+                   <h2 class="text-uppercase">contact me</h2>
 
-                          <p>lorem &#9733 lorem</p>
-                      </div>
+                   <div class="text-center star">
+                    <i class="fas fa-star"></i>
+                   </div>
+               </div>
+               <!--Contacts section teaser-->
 
-                      <div class="row">
-                          <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+               <!--FORM-->
+               <form action="#">
+                   
+               </form>
+               <!--FORM-->
 
-                              <div>
-                                  name
-                              </div>
 
-                              <div>
-                                  name
-                              </div>
+                
 
-                              <div>
-                                  name
-                              </div>
-                              
-                          </div>
-                      </div>
-
-                      <div class="row">
-                        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                            <div>BUTTON</div>
-                        </div>
-                    </div>
-                  </div>
-                </div>
             </div>
         </div>
       </section>

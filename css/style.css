@@ -1,5 +1,16 @@
 /*COMMON*/
+h1, h2 {
+    font-weight: bold;
+}
 
+p {
+    color: white;
+}
+
+.star {
+    padding-bottom: 30px;
+    font-size: 30px;
+}
 /*COMMON*/
 
 
@@ -10,18 +21,27 @@
     padding: 20px;
 }
 
-.top_nav .logo {
+.top_nav .logo,
+.top_nav .menu li a {
     color: white;
+    font-weight: 900;
 }
 
-.top_nav .menu {
-    color: white;
-    text-align: right;
+
+.top_nav .menu li {
+    list-style-type: none;
+    display: inline-block
 }
 
-.top_nav .burger_menu {
+.burger_menu a {
     color: white;
-    text-align: right;
+    font-size: 15px;
+}
+
+.top_nav .menu li a {
+    color: white;
+    text-decoration: none;
+    padding-left: 10px;
 }
 
 .bot_nav {
@@ -34,9 +54,11 @@
     color: white;
 }
 
-.teaser_header img {
+.teaser_img img {
     height: 300px;
 }
+
+
 
 /*HEADER*/
 
@@ -49,14 +71,7 @@
     text-align: center;
 }
 
-.portfolio_img img {
-    height: 270px;
-    width: auto;
-    border-radius: 10px;
-}
-
 .portfolio_img {
-    text-align: center;
     padding-top: 10px;
 }
 
@@ -67,6 +82,7 @@
 
 #about-section {
     background-color: #1abc9c;
+    padding: 60px 0;
 }
 
 .about-teaser {
@@ -74,14 +90,16 @@
     text-align: center;
 }
 
-/*test da eliminare domani*/
-h3 {
-    text-align: center;
+.button {
+    padding-top: 35px;
 }
-p {
-    text-align: center;
+
+.button a {
+    color: #1abc9c;
+    border-color: #2c3e50;
+    background-color: #3a546d;
 }
-/*test da eliminare domani*/
+
 
 /*MAIN*/
 
