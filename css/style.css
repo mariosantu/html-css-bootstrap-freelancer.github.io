@@ -100,16 +100,62 @@ p {
     background-color: #3a546d;
 }
 
+#form_style input, 
+#form_style textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    box-shadow: none;
+    font-size: 20px;
+    padding: 35px;
+}
+
+#form_style .button a {
+    background-color: #1abc9c;
+    color: white;
+    border: none;
+}
+
+#form_style .button {
+    padding-bottom: 20px;
+}
 
 /*MAIN*/
 
 /*FOOTER*/
 #footer_top {
     background-color: #3a546d;
+    padding: 20px 0;
+}
+
+#footer_top h3 {
+    color: white;
+    font-weight: 500;
+}
+
+.link_logo_box {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid white;
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.link_logo_box a {
+    color: white;
+    font-size: 25px;
 }
 
 #footer_bot {
     background-color: #2c3e50;
+}
+
+.freelance p a {
+    color: #1abc9c;
 }
 /*FOOTER*/
 
